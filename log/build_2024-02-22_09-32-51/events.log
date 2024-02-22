@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.001142] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.001198] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/alper/ros2_ws/install/my_robot_interfaces')])}
+[0.001242] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.099882] (-) TimerEvent: {}
+[0.201136] (-) TimerEvent: {}
+[0.302225] (-) TimerEvent: {}
+[0.402669] (-) TimerEvent: {}
+[0.503495] (-) TimerEvent: {}
+[0.603989] (-) TimerEvent: {}
+[0.704581] (-) TimerEvent: {}
+[0.805269] (-) TimerEvent: {}
+[0.906047] (-) TimerEvent: {}
+[1.006625] (-) TimerEvent: {}
+[1.106962] (-) TimerEvent: {}
+[1.207523] (-) TimerEvent: {}
+[1.309019] (-) TimerEvent: {}
+[1.410330] (-) TimerEvent: {}
+[1.438686] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[1.439761] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[1.440909] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alper/ros2_ws/build/my_robot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/alper/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alper'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1911'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alper/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/alper'), ('OLDPWD', '/home/alper'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1717'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9034'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alper/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'alper'), ('JOURNAL_STREAM', '8:57805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'alper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/alper/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/alper-NBLK-WAX9X:@/tmp/.ICE-unix/1972,unix/alper-NBLK-WAX9X:/tmp/.ICE-unix/1972'), ('INVOCATION_ID', '1d3018357dcf48b3afa0ba71232ff6cd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alper/ros2_ws/install/my_py_pkg:/home/alper/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7ec58c07-0b14-4014-bd77-7adadd1ce9f0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alper/ros2_ws/build/my_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/alper/ros2_ws/install/my_robot_interfaces:/home/alper/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[1.481324] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] Built target my_robot_interfaces__cpp\n'}
+[1.485544] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[1.503751] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.504998] (my_robot_interfaces) StdoutLine: {'line': b'[ 52%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.505302] (my_robot_interfaces) StdoutLine: {'line': b'[ 54%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[1.505476] (my_robot_interfaces) StdoutLine: {'line': b'[ 56%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[1.510443] (-) TimerEvent: {}
+[1.510785] (my_robot_interfaces) StdoutLine: {'line': b'[ 67%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.537207] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.550580] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_robot_interfaces\n'}
+[1.563970] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_robot_interfaces__py\n'}
+[1.586520] (my_robot_interfaces) StdoutLine: {'line': b'[ 89%] Built target my_robot_interfaces__python\n'}
+[1.604508] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.604751] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.604887] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.610520] (-) TimerEvent: {}
+[1.611646] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[1.710656] (-) TimerEvent: {}
+[1.715466] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[1.723257] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alper/ros2_ws/build/my_robot_interfaces'], 'cwd': '/home/alper/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alper'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1911'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alper/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/alper'), ('OLDPWD', '/home/alper'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1717'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9034'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alper/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'alper'), ('JOURNAL_STREAM', '8:57805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'alper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/alper/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/alper-NBLK-WAX9X:@/tmp/.ICE-unix/1972,unix/alper-NBLK-WAX9X:/tmp/.ICE-unix/1972'), ('INVOCATION_ID', '1d3018357dcf48b3afa0ba71232ff6cd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alper/ros2_ws/install/my_py_pkg:/home/alper/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7ec58c07-0b14-4014-bd77-7adadd1ce9f0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alper/ros2_ws/build/my_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/alper/ros2_ws/install/my_robot_interfaces:/home/alper/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[1.730623] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.731494] (my_robot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.731885] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[1.732734] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[1.732929] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[1.733123] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[1.733317] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__functions.h\n'}
+[1.733508] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__struct.h\n'}
+[1.733709] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__type_support.h\n'}
+[1.733905] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.h\n'}
+[1.734100] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_states.h\n'}
+[1.734297] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.734499] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.h\n'}
+[1.734703] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[1.734905] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[1.735108] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[1.735315] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__functions.h\n'}
+[1.735516] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.h\n'}
+[1.735719] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.h\n'}
+[1.735912] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.h\n'}
+[1.736303] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[1.736583] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[1.737617] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.737842] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_fastrtps_c.h\n'}
+[1.737977] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.738186] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[1.738396] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[1.738878] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.739786] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.739992] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.740214] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.740416] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.740619] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.741051] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.741702] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[1.741908] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_c.h\n'}
+[1.742115] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.742318] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[1.742520] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[1.743346] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[1.743548] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[1.743750] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[1.743954] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp\n'}
+[1.744233] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__builder.hpp\n'}
+[1.744409] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__struct.hpp\n'}
+[1.744589] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__traits.hpp\n'}
+[1.744768] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__type_support.hpp\n'}
+[1.744943] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[1.745115] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_states.hpp\n'}
+[1.745293] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.745508] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.hpp\n'}
+[1.745717] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[1.745867] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[1.746081] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[1.746305] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp\n'}
+[1.746459] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__builder.hpp\n'}
+[1.746599] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.hpp\n'}
+[1.746783] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__traits.hpp\n'}
+[1.746962] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.hpp\n'}
+[1.747147] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.hpp\n'}
+[1.747748] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.747932] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.748163] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.748348] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.748615] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[1.748868] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[1.749131] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py\n'}
+[1.749609] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/__init__.py\n'}
+[1.749792] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[1.749977] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_states.py\n'}
+[1.750449] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/__init__.py\n'}
+[1.750640] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py\n'}
+[1.750820] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_set_led.py\n'}
+[1.751244] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.751622] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.752002] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.752417] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so\n'}
+[1.752686] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[1.752949] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.idl\n'}
+[1.753208] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl\n'}
+[1.753477] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl\n'}
+[1.753715] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[1.753970] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.msg\n'}
+[1.754228] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv\n'}
+[1.754470] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Request.msg\n'}
+[1.754720] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Response.msg\n'}
+[1.754968] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv\n'}
+[1.755220] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Request.msg\n'}
+[1.755469] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Response.msg\n'}
+[1.755752] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[1.756031] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[1.756324] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[1.756577] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.756827] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[1.757082] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[1.757331] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[1.757575] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[1.757820] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[1.758093] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[1.758325] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[1.763450] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[1.763738] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.763895] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.764203] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.764470] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.764722] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.764978] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.765226] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.765482] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[1.765659] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[1.765904] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[1.766221] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[1.766591] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.766941] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[1.767300] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.767666] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.810734] (-) TimerEvent: {}
+[1.826496] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.826792] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.826955] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.827089] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.827254] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.827424] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.827538] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.827652] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.827765] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.827880] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.827993] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alper/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.829666] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[1.911018] (-) TimerEvent: {}
+[2.011726] (-) TimerEvent: {}
+[2.114571] (-) TimerEvent: {}
+[2.215090] (-) TimerEvent: {}
+[2.317386] (-) TimerEvent: {}
+[2.417724] (-) TimerEvent: {}
+[2.518274] (-) TimerEvent: {}
+[2.618853] (-) TimerEvent: {}
+[2.719317] (-) TimerEvent: {}
+[2.820125] (-) TimerEvent: {}
+[2.922367] (-) TimerEvent: {}
+[3.023182] (-) TimerEvent: {}
+[3.123648] (-) TimerEvent: {}
+[3.224531] (-) TimerEvent: {}
+[3.325141] (-) TimerEvent: {}
+[3.426370] (-) TimerEvent: {}
+[3.526826] (-) TimerEvent: {}
+[3.628084] (-) TimerEvent: {}
+[3.728705] (-) TimerEvent: {}
+[3.829220] (-) TimerEvent: {}
+[3.929839] (-) TimerEvent: {}
+[4.030562] (-) TimerEvent: {}
+[4.131523] (-) TimerEvent: {}
+[4.232001] (-) TimerEvent: {}
+[4.333278] (-) TimerEvent: {}
+[4.435642] (-) TimerEvent: {}
+[4.536741] (-) TimerEvent: {}
+[4.638272] (-) TimerEvent: {}
+[4.738730] (-) TimerEvent: {}
+[4.839619] (-) TimerEvent: {}
+[4.940428] (-) TimerEvent: {}
+[5.041280] (-) TimerEvent: {}
+[5.142662] (-) TimerEvent: {}
+[5.244090] (-) TimerEvent: {}
+[5.344839] (-) TimerEvent: {}
+[5.445475] (-) TimerEvent: {}
+[5.546052] (-) TimerEvent: {}
+[5.646685] (-) TimerEvent: {}
+[5.747486] (-) TimerEvent: {}
+[5.808829] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[5.809664] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[5.847844] (-) TimerEvent: {}
+[5.948391] (-) TimerEvent: {}
+[6.048846] (-) TimerEvent: {}
+[6.149343] (-) TimerEvent: {}
+[6.249784] (-) TimerEvent: {}
+[6.350653] (-) TimerEvent: {}
+[6.451318] (-) TimerEvent: {}
+[6.551887] (-) TimerEvent: {}
+[6.653068] (-) TimerEvent: {}
+[6.754086] (-) TimerEvent: {}
+[6.855618] (-) TimerEvent: {}
+[6.955953] (-) TimerEvent: {}
+[7.058264] (-) TimerEvent: {}
+[7.159333] (-) TimerEvent: {}
+[7.259797] (-) TimerEvent: {}
+[7.360559] (-) TimerEvent: {}
+[7.461261] (-) TimerEvent: {}
+[7.562493] (-) TimerEvent: {}
+[7.662886] (-) TimerEvent: {}
+[7.763319] (-) TimerEvent: {}
+[7.863698] (-) TimerEvent: {}
+[7.964347] (-) TimerEvent: {}
+[8.064652] (-) TimerEvent: {}
+[8.165143] (-) TimerEvent: {}
+[8.265525] (-) TimerEvent: {}
+[8.367415] (-) TimerEvent: {}
+[8.468123] (-) TimerEvent: {}
+[8.568598] (-) TimerEvent: {}
+[8.669346] (-) TimerEvent: {}
+[8.769821] (-) TimerEvent: {}
+[8.870207] (-) TimerEvent: {}
+[8.970891] (-) TimerEvent: {}
+[9.071466] (-) TimerEvent: {}
+[9.172900] (-) TimerEvent: {}
+[9.273295] (-) TimerEvent: {}
+[9.373892] (-) TimerEvent: {}
+[9.475168] (-) TimerEvent: {}
+[9.576574] (-) TimerEvent: {}
+[9.677041] (-) TimerEvent: {}
+[9.777371] (-) TimerEvent: {}
+[9.877717] (-) TimerEvent: {}
+[9.978066] (-) TimerEvent: {}
+[10.078382] (-) TimerEvent: {}
+[10.178680] (-) TimerEvent: {}
+[10.278997] (-) TimerEvent: {}
+[10.379371] (-) TimerEvent: {}
+[10.414742] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/alper/ros2_ws/build/my_py_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/alper/ros2_ws/build/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alper', 'LC_TIME': 'tr_TR.UTF-8', 'SSH_AGENT_PID': '1911', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alper/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/alper', 'OLDPWD': '/home/alper', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'MANAGERPID': '1717', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9034', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/alper/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'alper', 'JOURNAL_STREAM': '8:57805', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'alper', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/alper/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/alper-NBLK-WAX9X:@/tmp/.ICE-unix/1972,unix/alper-NBLK-WAX9X:/tmp/.ICE-unix/1972', 'INVOCATION_ID': '1d3018357dcf48b3afa0ba71232ff6cd', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alper/ros2_ws/install/my_py_pkg:/home/alper/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:7ec58c07-0b14-4014-bd77-7adadd1ce9f0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alper/ros2_ws/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alper/ros2_ws/build/my_py_pkg/prefix_override:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/alper/ros2_ws/install/my_robot_interfaces'}, 'shell': False}
+[10.479482] (-) TimerEvent: {}
+[10.579840] (-) TimerEvent: {}
+[10.680159] (-) TimerEvent: {}
+[10.780475] (-) TimerEvent: {}
+[10.880781] (-) TimerEvent: {}
+[10.931287] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[10.980879] (-) TimerEvent: {}
+[11.081187] (-) TimerEvent: {}
+[11.181484] (-) TimerEvent: {}
+[11.281780] (-) TimerEvent: {}
+[11.315128] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[11.315701] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[11.316129] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[11.316464] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[11.316647] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[11.316805] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[11.381886] (-) TimerEvent: {}
+[11.387223] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[11.388559] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[11.442219] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[11.442646] (my_py_pkg) StdoutLine: {'line': b'Creating /home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[11.443958] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.444213] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.444392] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.444550] (my_py_pkg) StdoutLine: {'line': b'Installing battery_node script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.444688] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.444850] (my_py_pkg) StdoutLine: {'line': b'Installing led_panel_node script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.444987] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.445162] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.445304] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.445463] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.445617] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.445945] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[11.446079] (my_py_pkg) StdoutLine: {'line': b'Installed /home/alper/ros2_ws/build/my_py_pkg\n'}
+[11.446183] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[11.482013] (-) TimerEvent: {}
+[11.497630] (my_py_pkg) CommandEnded: {'returncode': 0}
+[11.582152] (-) TimerEvent: {}
+[11.682799] (-) TimerEvent: {}
+[11.783991] (-) TimerEvent: {}
+[11.884646] (-) TimerEvent: {}
+[11.985329] (-) TimerEvent: {}
+[12.086350] (-) TimerEvent: {}
+[12.187166] (-) TimerEvent: {}
+[12.288290] (-) TimerEvent: {}
+[12.389008] (-) TimerEvent: {}
+[12.490091] (-) TimerEvent: {}
+[12.590496] (-) TimerEvent: {}
+[12.693487] (-) TimerEvent: {}
+[12.794316] (-) TimerEvent: {}
+[12.878710] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[12.879903] (-) EventReactorShutdown: {}

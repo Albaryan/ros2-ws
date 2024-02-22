@@ -1,0 +1,19 @@
+[5.226s] Invoking command in '/home/alper/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/alper/ros2_ws/build/my_py_pkg/prefix_override:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alper/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[5.830s] running develop
+[6.260s] running egg_info
+[6.261s] writing my_py_pkg.egg-info/PKG-INFO
+[6.261s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[6.262s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[6.262s] writing requirements to my_py_pkg.egg-info/requires.txt
+[6.262s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[6.340s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[6.342s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[6.408s] running build_ext
+[6.408s] Creating /home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[6.410s] Installing py_node script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.410s] Installing robot_news_station script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.410s] Installing smartphone script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.411s] 
+[6.411s] Installed /home/alper/ros2_ws/build/my_py_pkg
+[6.411s] running install_data
+[6.473s] Invoked command in '/home/alper/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/alper/ros2_ws/build/my_py_pkg/prefix_override:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alper/ros2_ws/build/my_py_pkg/build --no-deps install_data

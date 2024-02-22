@@ -1,0 +1,22 @@
+[5.191s] Invoking command in '/home/alper/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/alper/ros2_ws/build/my_py_pkg/prefix_override:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alper/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[5.773s] running develop
+[6.180s] running egg_info
+[6.180s] writing my_py_pkg.egg-info/PKG-INFO
+[6.181s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[6.181s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[6.181s] writing requirements to my_py_pkg.egg-info/requires.txt
+[6.181s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[6.255s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[6.257s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[6.319s] running build_ext
+[6.319s] Creating /home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[6.321s] Installing add_two_ints_server = my_py_pkg.add_two_ints_server:mainadd_two_ints_client_no_oop script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.321s] Installing number_counter script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.321s] Installing number_publisher script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.321s] Installing py_node script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.321s] Installing robot_news_station script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.322s] Installing smartphone script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.322s] 
+[6.322s] Installed /home/alper/ros2_ws/build/my_py_pkg
+[6.322s] running install_data
+[6.383s] Invoked command in '/home/alper/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/alper/ros2_ws/build/my_py_pkg/prefix_override:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alper/ros2_ws/build/my_py_pkg/build --no-deps install_data

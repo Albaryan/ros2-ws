@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000770] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001159] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099853] (-) TimerEvent: {}
+[0.201474] (-) TimerEvent: {}
+[0.302685] (-) TimerEvent: {}
+[0.403465] (-) TimerEvent: {}
+[0.504585] (-) TimerEvent: {}
+[0.605850] (-) TimerEvent: {}
+[0.706872] (-) TimerEvent: {}
+[0.807616] (-) TimerEvent: {}
+[0.908212] (-) TimerEvent: {}
+[1.009286] (-) TimerEvent: {}
+[1.110300] (-) TimerEvent: {}
+[1.211848] (-) TimerEvent: {}
+[1.313574] (-) TimerEvent: {}
+[1.415132] (-) TimerEvent: {}
+[1.515935] (-) TimerEvent: {}
+[1.616820] (-) TimerEvent: {}
+[1.717441] (-) TimerEvent: {}
+[1.817848] (-) TimerEvent: {}
+[1.918270] (-) TimerEvent: {}
+[2.018592] (-) TimerEvent: {}
+[2.118900] (-) TimerEvent: {}
+[2.219230] (-) TimerEvent: {}
+[2.319825] (-) TimerEvent: {}
+[2.421536] (-) TimerEvent: {}
+[2.522451] (-) TimerEvent: {}
+[2.623477] (-) TimerEvent: {}
+[2.724559] (-) TimerEvent: {}
+[2.826827] (-) TimerEvent: {}
+[2.929191] (-) TimerEvent: {}
+[3.030959] (-) TimerEvent: {}
+[3.132554] (-) TimerEvent: {}
+[3.234999] (-) TimerEvent: {}
+[3.336201] (-) TimerEvent: {}
+[3.437864] (-) TimerEvent: {}
+[3.538875] (-) TimerEvent: {}
+[3.639500] (-) TimerEvent: {}
+[3.740197] (-) TimerEvent: {}
+[3.840603] (-) TimerEvent: {}
+[3.940924] (-) TimerEvent: {}
+[4.041238] (-) TimerEvent: {}
+[4.141528] (-) TimerEvent: {}
+[4.241819] (-) TimerEvent: {}
+[4.342101] (-) TimerEvent: {}
+[4.442393] (-) TimerEvent: {}
+[4.542713] (-) TimerEvent: {}
+[4.564476] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/alper/ros2_ws/build/my_py_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/alper/ros2_ws/build/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alper', 'LC_TIME': 'tr_TR.UTF-8', 'SSH_AGENT_PID': '1927', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/alper', 'OLDPWD': '/home/alper', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'MANAGERPID': '1733', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '169590', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/alper/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'alper', 'JOURNAL_STREAM': '8:48845', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'alper', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/alper/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/alper-NBLK-WAX9X:@/tmp/.ICE-unix/1994,unix/alper-NBLK-WAX9X:/tmp/.ICE-unix/1994', 'INVOCATION_ID': '0fd54e5d2c6341ebb44bce700f770e74', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alper/ros2_ws/install/my_py_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:788529d4-32bd-4493-9264-0d8f7434d05d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alper/ros2_ws/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alper/ros2_ws/build/my_py_pkg/prefix_override:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[4.642846] (-) TimerEvent: {}
+[4.743240] (-) TimerEvent: {}
+[4.843539] (-) TimerEvent: {}
+[4.943893] (-) TimerEvent: {}
+[5.044315] (-) TimerEvent: {}
+[5.074073] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[5.144439] (-) TimerEvent: {}
+[5.244938] (-) TimerEvent: {}
+[5.345295] (-) TimerEvent: {}
+[5.445629] (-) TimerEvent: {}
+[5.457744] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.458255] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[5.458549] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[5.458796] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[5.458953] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[5.459094] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[5.530421] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[5.531874] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[5.545742] (-) TimerEvent: {}
+[5.588843] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[5.589698] (my_py_pkg) StdoutLine: {'line': b'Creating /home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[5.591051] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.591247] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.591441] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.591618] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.591787] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.591954] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.592117] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.592282] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.592595] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[5.592723] (my_py_pkg) StdoutLine: {'line': b'Installed /home/alper/ros2_ws/build/my_py_pkg\n'}
+[5.592857] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.643929] (my_py_pkg) CommandEnded: {'returncode': 0}
+[5.645802] (-) TimerEvent: {}
+[5.746972] (-) TimerEvent: {}
+[5.848633] (-) TimerEvent: {}
+[5.950065] (-) TimerEvent: {}
+[6.051885] (-) TimerEvent: {}
+[6.154179] (-) TimerEvent: {}
+[6.255461] (-) TimerEvent: {}
+[6.356514] (-) TimerEvent: {}
+[6.458487] (-) TimerEvent: {}
+[6.560202] (-) TimerEvent: {}
+[6.661287] (-) TimerEvent: {}
+[6.762520] (-) TimerEvent: {}
+[6.864320] (-) TimerEvent: {}
+[6.966259] (-) TimerEvent: {}
+[7.068567] (-) TimerEvent: {}
+[7.105817] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[7.106971] (-) EventReactorShutdown: {}

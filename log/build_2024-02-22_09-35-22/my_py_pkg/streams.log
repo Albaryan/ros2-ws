@@ -1,0 +1,27 @@
+[4.543s] Invoking command in '/home/alper/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/alper/ros2_ws/build/my_py_pkg/prefix_override:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/alper/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[5.068s] running develop
+[5.449s] running egg_info
+[5.449s] writing my_py_pkg.egg-info/PKG-INFO
+[5.450s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[5.450s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[5.450s] writing requirements to my_py_pkg.egg-info/requires.txt
+[5.450s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[5.519s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[5.521s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[5.575s] running build_ext
+[5.575s] Creating /home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[5.577s] Installing add_two_ints_client script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.577s] Installing add_two_ints_client_no_oop script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.577s] Installing add_two_ints_server script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.577s] Installing battery_node script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.577s] Installing hw_status_publisher script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.578s] Installing led_panel_node script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.578s] Installing number_counter script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.578s] Installing number_publisher script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.578s] Installing py_node script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.578s] Installing robot_news_station script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.578s] Installing smartphone script to /home/alper/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.579s] 
+[5.579s] Installed /home/alper/ros2_ws/build/my_py_pkg
+[5.579s] running install_data
+[5.637s] Invoked command in '/home/alper/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/alper/ros2_ws/build/my_py_pkg/prefix_override:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/alper/ros2_ws/build/my_py_pkg/build --no-deps install_data
