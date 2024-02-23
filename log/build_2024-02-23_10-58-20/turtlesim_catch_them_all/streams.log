@@ -1,0 +1,19 @@
+[4.574s] Invoking command in '/home/alper/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/alper/ros2_ws/install/my_robot_interfaces:/home/alper/ros2_ws/install/my_robot_bringup PYTHONPATH=/home/alper/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/alper/ros2_ws/build/turtlesim_catch_them_all:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/alper/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
+[5.100s] running develop
+[5.477s] running egg_info
+[5.477s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[5.478s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[5.478s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[5.478s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[5.478s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[5.550s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[5.551s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[5.608s] running build_ext
+[5.609s] Creating /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[5.610s] Installing turtle_spawner script to /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[5.610s] Installing turtlesim_controller script to /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[5.611s] 
+[5.611s] Installed /home/alper/ros2_ws/build/turtlesim_catch_them_all
+[5.611s] running install_data
+[5.611s] copying package.xml -> /home/alper/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all
+[5.671s] Invoked command in '/home/alper/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/alper/ros2_ws/install/my_robot_interfaces:/home/alper/ros2_ws/install/my_robot_bringup PYTHONPATH=/home/alper/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/alper/ros2_ws/build/turtlesim_catch_them_all:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/alper/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data

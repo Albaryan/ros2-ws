@@ -3,7 +3,10 @@
   "non_idl_tuples": [
     "/home/alper/ros2_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
     "/home/alper/ros2_ws/src/my_robot_interfaces:msg/LedStates.msg",
+    "/home/alper/ros2_ws/src/my_robot_interfaces:msg/Turtle.msg",
+    "/home/alper/ros2_ws/src/my_robot_interfaces:msg/TurtleArray.msg",
     "/home/alper/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
-    "/home/alper/ros2_ws/src/my_robot_interfaces:srv/SetLed.srv"
+    "/home/alper/ros2_ws/src/my_robot_interfaces:srv/SetLed.srv",
+    "/home/alper/ros2_ws/src/my_robot_interfaces:srv/CatchTurtle.srv"
   ]
 }

@@ -1,0 +1,38 @@
+[6.768s] Invoking command in '/home/alper/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/alper/ros2_ws/install/my_robot_interfaces:/home/alper/ros2_ws/install/my_robot_bringup PYTHONPATH=/home/alper/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/alper/ros2_ws/build/turtlesim_catch_them_all:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/alper/ros2_ws/build/turtlesim_catch_them_all/build
+[7.299s] running develop
+[7.690s] Removing /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[7.749s] Invoked command in '/home/alper/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/alper/ros2_ws/install/my_robot_interfaces:/home/alper/ros2_ws/install/my_robot_bringup PYTHONPATH=/home/alper/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/alper/ros2_ws/build/turtlesim_catch_them_all:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/alper/ros2_ws/build/turtlesim_catch_them_all/build
+[7.758s] Invoking command in '/home/alper/ros2_ws/src/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/alper/ros2_ws/install/my_robot_interfaces:/home/alper/ros2_ws/install/my_robot_bringup PYTHONPATH=/home/alper/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/alper/ros2_ws/build/turtlesim_catch_them_all:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/alper/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/alper/ros2_ws/build/turtlesim_catch_them_all/install.log --install-scripts $base/lib/turtlesim_catch_them_all --single-version-externally-managed
+[8.267s] running egg_info
+[8.268s] writing ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/PKG-INFO
+[8.269s] writing dependency_links to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/dependency_links.txt
+[8.269s] writing entry points to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/entry_points.txt
+[8.269s] writing requirements to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/requires.txt
+[8.269s] writing top-level names to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/top_level.txt
+[8.327s] reading manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[8.329s] writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[8.330s] running build
+[8.330s] running build_py
+[8.330s] creating /home/alper/ros2_ws/build/turtlesim_catch_them_all/build
+[8.330s] creating /home/alper/ros2_ws/build/turtlesim_catch_them_all/build/lib
+[8.330s] creating /home/alper/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[8.330s] copying turtlesim_catch_them_all/turtle_controller.py -> /home/alper/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[8.330s] copying turtlesim_catch_them_all/turtle_spawner.py -> /home/alper/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[8.330s] copying turtlesim_catch_them_all/__init__.py -> /home/alper/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[8.331s] running install
+[8.332s] running install_lib
+[8.334s] creating /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim_catch_them_all
+[8.334s] copying /home/alper/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_controller.py -> /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim_catch_them_all
+[8.334s] copying /home/alper/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_spawner.py -> /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim_catch_them_all
+[8.334s] copying /home/alper/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/__init__.py -> /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim_catch_them_all
+[8.335s] byte-compiling /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim_catch_them_all/turtle_controller.py to turtle_controller.cpython-38.pyc
+[8.338s] byte-compiling /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim_catch_them_all/turtle_spawner.py to turtle_spawner.cpython-38.pyc
+[8.339s] byte-compiling /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim_catch_them_all/__init__.py to __init__.cpython-38.pyc
+[8.339s] running install_data
+[8.341s] running install_egg_info
+[8.344s] Copying ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info to /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim_catch_them_all-0.0.0-py3.8.egg-info
+[8.345s] running install_scripts
+[8.374s] Installing turtle_spawner script to /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[8.374s] Installing turtlesim_controller script to /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[8.374s] writing list of installed files to '/home/alper/ros2_ws/build/turtlesim_catch_them_all/install.log'
+[8.419s] Invoked command in '/home/alper/ros2_ws/src/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/alper/ros2_ws/install/my_robot_interfaces:/home/alper/ros2_ws/install/my_robot_bringup PYTHONPATH=/home/alper/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/alper/ros2_ws/build/turtlesim_catch_them_all:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/alper/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/alper/ros2_ws/build/turtlesim_catch_them_all/install.log --install-scripts $base/lib/turtlesim_catch_them_all --single-version-externally-managed

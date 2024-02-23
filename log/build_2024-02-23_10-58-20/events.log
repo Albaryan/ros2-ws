@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000469] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000587] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000656] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001323] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/alper/ros2_ws/install/my_robot_interfaces')])}
+[0.001387] (turtlesim_catch_them_all) JobStarted: {'identifier': 'turtlesim_catch_them_all'}
+[0.100678] (-) TimerEvent: {}
+[0.203422] (-) TimerEvent: {}
+[0.304336] (-) TimerEvent: {}
+[0.405060] (-) TimerEvent: {}
+[0.507006] (-) TimerEvent: {}
+[0.608029] (-) TimerEvent: {}
+[0.709854] (-) TimerEvent: {}
+[0.811287] (-) TimerEvent: {}
+[0.912357] (-) TimerEvent: {}
+[1.013215] (-) TimerEvent: {}
+[1.113806] (-) TimerEvent: {}
+[1.215188] (-) TimerEvent: {}
+[1.315985] (-) TimerEvent: {}
+[1.417265] (-) TimerEvent: {}
+[1.518586] (-) TimerEvent: {}
+[1.620192] (-) TimerEvent: {}
+[1.721041] (-) TimerEvent: {}
+[1.822040] (-) TimerEvent: {}
+[1.922533] (-) TimerEvent: {}
+[2.022892] (-) TimerEvent: {}
+[2.123324] (-) TimerEvent: {}
+[2.223692] (-) TimerEvent: {}
+[2.324891] (-) TimerEvent: {}
+[2.425422] (-) TimerEvent: {}
+[2.525995] (-) TimerEvent: {}
+[2.626672] (-) TimerEvent: {}
+[2.728302] (-) TimerEvent: {}
+[2.829783] (-) TimerEvent: {}
+[2.930247] (-) TimerEvent: {}
+[3.032358] (-) TimerEvent: {}
+[3.134482] (-) TimerEvent: {}
+[3.236139] (-) TimerEvent: {}
+[3.336710] (-) TimerEvent: {}
+[3.438561] (-) TimerEvent: {}
+[3.539475] (-) TimerEvent: {}
+[3.641337] (-) TimerEvent: {}
+[3.742244] (-) TimerEvent: {}
+[3.842758] (-) TimerEvent: {}
+[3.943189] (-) TimerEvent: {}
+[4.043546] (-) TimerEvent: {}
+[4.143893] (-) TimerEvent: {}
+[4.244272] (-) TimerEvent: {}
+[4.344651] (-) TimerEvent: {}
+[4.445117] (-) TimerEvent: {}
+[4.545474] (-) TimerEvent: {}
+[4.573734] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/alper/ros2_ws/build/turtlesim_catch_them_all/build', '--no-deps', 'install_data'], 'cwd': '/home/alper/ros2_ws/build/turtlesim_catch_them_all', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alper', 'LC_TIME': 'tr_TR.UTF-8', 'SSH_AGENT_PID': '1906', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alper/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/alper', 'OLDPWD': '/home/alper/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'MANAGERPID': '1710', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '12008', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/alper/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'alper', 'JOURNAL_STREAM': '8:56884', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'alper', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/alper/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/alper-NBLK-WAX9X:@/tmp/.ICE-unix/1972,unix/alper-NBLK-WAX9X:/tmp/.ICE-unix/1972', 'INVOCATION_ID': 'ee47aabcb6db4c81871a188b8e2b0bde', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alper/ros2_ws/install/turtlesim_catch_them_all:/home/alper/ros2_ws/install/my_robot_bringup:/home/alper/ros2_ws/install/my_py_pkg:/home/alper/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:b472e335-8159-47b7-a7c2-bc55a585d79e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alper/ros2_ws/build/turtlesim_catch_them_all', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alper/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/alper/ros2_ws/build/turtlesim_catch_them_all:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:/home/alper/ros2_ws/build/my_py_pkg:/home/alper/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/alper/ros2_ws/install/my_robot_interfaces:/home/alper/ros2_ws/install/my_robot_bringup'}, 'shell': False}
+[4.645650] (-) TimerEvent: {}
+[4.746148] (-) TimerEvent: {}
+[4.846631] (-) TimerEvent: {}
+[4.947086] (-) TimerEvent: {}
+[5.047528] (-) TimerEvent: {}
+[5.100803] (turtlesim_catch_them_all) StdoutLine: {'line': b'running develop\n'}
+[5.147692] (-) TimerEvent: {}
+[5.248188] (-) TimerEvent: {}
+[5.348699] (-) TimerEvent: {}
+[5.449144] (-) TimerEvent: {}
+[5.477867] (turtlesim_catch_them_all) StdoutLine: {'line': b'running egg_info\n'}
+[5.478502] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing turtlesim_catch_them_all.egg-info/PKG-INFO\n'}
+[5.478960] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt\n'}
+[5.479200] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt\n'}
+[5.479428] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing requirements to turtlesim_catch_them_all.egg-info/requires.txt\n'}
+[5.479623] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt\n'}
+[5.549269] (-) TimerEvent: {}
+[5.550853] (turtlesim_catch_them_all) StdoutLine: {'line': b"reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[5.552272] (turtlesim_catch_them_all) StdoutLine: {'line': b"writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[5.609445] (turtlesim_catch_them_all) StdoutLine: {'line': b'running build_ext\n'}
+[5.610150] (turtlesim_catch_them_all) StdoutLine: {'line': b'Creating /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim-catch-them-all.egg-link (link to .)\n'}
+[5.611437] (turtlesim_catch_them_all) StdoutLine: {'line': b'Installing turtle_spawner script to /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all\n'}
+[5.611693] (turtlesim_catch_them_all) StdoutLine: {'line': b'Installing turtlesim_controller script to /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all\n'}
+[5.611855] (turtlesim_catch_them_all) StdoutLine: {'line': b'\n'}
+[5.611987] (turtlesim_catch_them_all) StdoutLine: {'line': b'Installed /home/alper/ros2_ws/build/turtlesim_catch_them_all\n'}
+[5.612089] (turtlesim_catch_them_all) StdoutLine: {'line': b'running install_data\n'}
+[5.612211] (turtlesim_catch_them_all) StdoutLine: {'line': b'copying package.xml -> /home/alper/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all\n'}
+[5.649462] (-) TimerEvent: {}
+[5.671886] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[5.749937] (-) TimerEvent: {}
+[5.851772] (-) TimerEvent: {}
+[5.953114] (-) TimerEvent: {}
+[6.053736] (-) TimerEvent: {}
+[6.154774] (-) TimerEvent: {}
+[6.256411] (-) TimerEvent: {}
+[6.357209] (-) TimerEvent: {}
+[6.457585] (-) TimerEvent: {}
+[6.559322] (-) TimerEvent: {}
+[6.662277] (-) TimerEvent: {}
+[6.764408] (-) TimerEvent: {}
+[6.865248] (-) TimerEvent: {}
+[6.965900] (-) TimerEvent: {}
+[7.059663] (turtlesim_catch_them_all) JobEnded: {'identifier': 'turtlesim_catch_them_all', 'rc': 0}
+[7.060818] (-) EventReactorShutdown: {}

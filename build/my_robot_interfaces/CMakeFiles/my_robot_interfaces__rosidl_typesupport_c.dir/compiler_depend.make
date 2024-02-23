@@ -71,6 +71,117 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my
   /opt/ros/foxy/include/rosidl_typesupport_c/message_type_support_dispatch.h \
   /opt/ros/foxy/include/rosidl_typesupport_c/type_support_map.h
 
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle__type_support.cpp.o: rosidl_typesupport_c/my_robot_interfaces/msg/turtle__type_support.cpp \
+  /usr/include/stdc-predef.h \
+  /usr/include/c++/9/cstddef \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h \
+  rosidl_typesupport_c/my_robot_interfaces/msg/rosidl_typesupport_c__visibility_control.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/turtle__struct.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/string.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/identifier.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/visibility_control.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/message_type_support_dispatch.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/type_support_map.h
+
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle_array__type_support.cpp.o: rosidl_typesupport_c/my_robot_interfaces/msg/turtle_array__type_support.cpp \
+  /usr/include/stdc-predef.h \
+  /usr/include/c++/9/cstddef \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h \
+  rosidl_typesupport_c/my_robot_interfaces/msg/rosidl_typesupport_c__visibility_control.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/turtle_array__struct.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/turtle__struct.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/string.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/identifier.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/visibility_control.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/message_type_support_dispatch.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/type_support_map.h
+
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/catch_turtle__type_support.cpp.o: rosidl_typesupport_c/my_robot_interfaces/srv/catch_turtle__type_support.cpp \
+  /usr/include/stdc-predef.h \
+  /usr/include/c++/9/cstddef \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h \
+  rosidl_typesupport_c/my_robot_interfaces/msg/rosidl_typesupport_c__visibility_control.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/catch_turtle__struct.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/string.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/identifier.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/visibility_control.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/message_type_support_dispatch.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/type_support_map.h \
+  /opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/foxy/include/rosidl_typesupport_c/service_type_support_dispatch.h
+
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o: rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/9/cstddef \
@@ -146,13 +257,23 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my
 
 rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp:
 
-/opt/ros/foxy/include/rosidl_typesupport_c/service_type_support_dispatch.h:
-
 rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h:
 
 rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp:
 
+rosidl_generator_c/my_robot_interfaces/msg/detail/turtle_array__struct.h:
+
+rosidl_typesupport_c/my_robot_interfaces/msg/turtle_array__type_support.cpp:
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/turtle__struct.h:
+
+/opt/ros/foxy/include/rosidl_typesupport_c/service_type_support_dispatch.h:
+
+rosidl_typesupport_c/my_robot_interfaces/msg/turtle__type_support.cpp:
+
 rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__struct.h:
+
+rosidl_typesupport_c/my_robot_interfaces/srv/catch_turtle__type_support.cpp:
 
 /opt/ros/foxy/include/rosidl_typesupport_c/visibility_control.h:
 
@@ -191,6 +312,8 @@ rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp:
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/stdc-predef.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/catch_turtle__struct.h:
 
 rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h:
 

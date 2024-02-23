@@ -376,17 +376,32 @@ ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" 
 # install(FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStates.idl" "DESTINATION" "share/my_robot_interfaces/msg")
 ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStates.idl" "DESTINATION" "share/my_robot_interfaces/msg")
 
+# install(FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/Turtle.idl" "DESTINATION" "share/my_robot_interfaces/msg")
+ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/Turtle.idl" "DESTINATION" "share/my_robot_interfaces/msg")
+
+# install(FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl" "DESTINATION" "share/my_robot_interfaces/msg")
+ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl" "DESTINATION" "share/my_robot_interfaces/msg")
+
 # install(FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl" "DESTINATION" "share/my_robot_interfaces/srv")
 ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl" "DESTINATION" "share/my_robot_interfaces/srv")
 
 # install(FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl" "DESTINATION" "share/my_robot_interfaces/srv")
 ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl" "DESTINATION" "share/my_robot_interfaces/srv")
 
+# install(FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/CatchTurtle.idl" "DESTINATION" "share/my_robot_interfaces/srv")
+ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/CatchTurtle.idl" "DESTINATION" "share/my_robot_interfaces/srv")
+
 # install(FILES "/home/alper/ros2_ws/src/my_robot_interfaces/msg/HardwareStatus.msg" "DESTINATION" "share/my_robot_interfaces/msg")
 ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/src/my_robot_interfaces/msg/HardwareStatus.msg" "DESTINATION" "share/my_robot_interfaces/msg")
 
 # install(FILES "/home/alper/ros2_ws/src/my_robot_interfaces/msg/LedStates.msg" "DESTINATION" "share/my_robot_interfaces/msg")
 ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/src/my_robot_interfaces/msg/LedStates.msg" "DESTINATION" "share/my_robot_interfaces/msg")
+
+# install(FILES "/home/alper/ros2_ws/src/my_robot_interfaces/msg/Turtle.msg" "DESTINATION" "share/my_robot_interfaces/msg")
+ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/src/my_robot_interfaces/msg/Turtle.msg" "DESTINATION" "share/my_robot_interfaces/msg")
+
+# install(FILES "/home/alper/ros2_ws/src/my_robot_interfaces/msg/TurtleArray.msg" "DESTINATION" "share/my_robot_interfaces/msg")
+ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/src/my_robot_interfaces/msg/TurtleArray.msg" "DESTINATION" "share/my_robot_interfaces/msg")
 
 # install(FILES "/home/alper/ros2_ws/src/my_robot_interfaces/srv/ComputeRectangleArea.srv" "DESTINATION" "share/my_robot_interfaces/srv")
 ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/src/my_robot_interfaces/srv/ComputeRectangleArea.srv" "DESTINATION" "share/my_robot_interfaces/srv")
@@ -405,6 +420,15 @@ ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" 
 
 # install(FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/SetLed_Response.msg" "DESTINATION" "share/my_robot_interfaces/srv")
 ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/SetLed_Response.msg" "DESTINATION" "share/my_robot_interfaces/srv")
+
+# install(FILES "/home/alper/ros2_ws/src/my_robot_interfaces/srv/CatchTurtle.srv" "DESTINATION" "share/my_robot_interfaces/srv")
+ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/src/my_robot_interfaces/srv/CatchTurtle.srv" "DESTINATION" "share/my_robot_interfaces/srv")
+
+# install(FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/CatchTurtle_Request.msg" "DESTINATION" "share/my_robot_interfaces/srv")
+ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/CatchTurtle_Request.msg" "DESTINATION" "share/my_robot_interfaces/srv")
+
+# install(FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/CatchTurtle_Response.msg" "DESTINATION" "share/my_robot_interfaces/srv")
+ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/CatchTurtle_Response.msg" "DESTINATION" "share/my_robot_interfaces/srv")
 
 # install(FILES "/home/alper/ros2_ws/build/my_robot_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/alper/ros2_ws/src/my_robot_interfaces" FILES "/home/alper/ros2_ws/build/my_robot_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

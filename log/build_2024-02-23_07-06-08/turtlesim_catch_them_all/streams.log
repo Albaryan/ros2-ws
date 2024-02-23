@@ -1,0 +1,19 @@
+[4.477s] Invoking command in '/home/alper/ros2_ws/build/turtlesim_catch_them_all': PYTHONPATH=/home/alper/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alper/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
+[4.987s] running develop
+[5.362s] running egg_info
+[5.362s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[5.362s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[5.363s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[5.363s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[5.363s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[5.432s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[5.433s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[5.488s] running build_ext
+[5.489s] Creating /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[5.490s] Installing turtle_spawner script to /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[5.491s] Installing turtlesim_controller script to /home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[5.491s] 
+[5.491s] Installed /home/alper/ros2_ws/build/turtlesim_catch_them_all
+[5.491s] running install_data
+[5.491s] copying package.xml -> /home/alper/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all
+[5.548s] Invoked command in '/home/alper/ros2_ws/build/turtlesim_catch_them_all' returned '0': PYTHONPATH=/home/alper/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/alper/ros2_ws/install/turtlesim_catch_them_all/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alper/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
