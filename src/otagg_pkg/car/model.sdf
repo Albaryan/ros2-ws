@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <model name="Car">
+
+    <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+      <wheel_separation>0.203764</wheel_separation>
+      <wheel_diameter>0.088</wheel_diameter>
+      <command_topic>cmd_vel</command_topic>
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>false</publish_wheel_tf>
+      <odometry_topic>odom</odometry_topic>
+    </plugin>
+
+    <link name="chassis">
+      <pose>0 0 0 0 0 0</pose>
+
+      <inertial>
+        <mass>10</mass>
+        <inertia>
+          <ixx>0.0044258667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.004098579</iyy>
+          <iyz>0</iyz>
+          <izz>0.00490690499</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://car/meshes/car_min.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://car/meshes/car_min.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+    </link>
+
+    <link name="left_wheel">
+      <pose relative_to="chassis">-0.033182 0.101882 0 1.570796 0 0</pose>
+
+      <inertial>
+        <mass>5</mass>
+        <inertia>
+          <ixx>0.000604333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000604333</iyy>
+          <iyz>0</iyz>
+          <izz>0.000968</izz>
+        </inertia>
+      </inertial>
+
+      <visual name='visual'>
+        <geometry>
+          <cylinder>
+            <radius>0.044</radius>
+            <length>0.038</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 0.0 0.0 1</ambient>
+          <diffuse>1.0 0.0 0.0 1</diffuse>
+          <specular>1.0 0.0 0.0 1</specular>
+        </material>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <cylinder>
+            <radius>0.044</radius>
+            <length>0.038</length>
+          </cylinder>
+        </geometry>
+      </collision>
+
+    </link>
+
+    <link name="right_wheel">
+      <pose relative_to="chassis">-0.033182 -0.101882 0 1.57079633 0 0</pose>
+
+      <inertial>
+        <mass>5</mass>
+        <inertia>
+          <ixx>0.000968</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000604333</iyy>
+          <iyz>0</iyz>
+          <izz>0.000604333</izz>
+        </inertia>
+      </inertial>
+
+      <visual name='visual'>
+        <geometry>
+          <cylinder>
+            <radius>0.044</radius>
+            <length>0.038</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 0.0 0.0 1</ambient>
+          <diffuse>1.0 0.0 0.0 1</diffuse>
+          <specular>1.0 0.0 0.0 1</specular>
+        </material>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <cylinder>
+            <radius>0.044</radius>
+            <length>0.038</length>
+          </cylinder>
+        </geometry>
+      </collision>
+
+    </link>
+
+    <joint name='left_wheel_joint' type='revolute'>
+      <pose relative_to='left_wheel' />
+      <parent>chassis</parent>
+      <child>left_wheel</child>
+      <axis>
+        <xyz expressed_in='__model__'>0 1 0</xyz> <!--can
+        be descired to any frame or even arbitrary frames-->
+        <limit>
+          <lower>-1.79769e+308</lower>    <!--negative
+          infinity-->
+          <upper>1.79769e+308</upper>     <!--positive
+          infinity-->
+        </limit>
+      </axis>
+    </joint>
+
+    <!--right
+    wheel joint-->
+    <joint name='right_wheel_joint' type='revolute'>
+      <pose relative_to='right_wheel' />
+      <parent>chassis</parent>
+      <child>right_wheel</child>
+      <axis>
+        <xyz expressed_in='__model__'>0 1 0</xyz>
+        <limit>
+          <lower>-1.79769e+308</lower>    <!--negative
+          infinity-->
+          <upper>1.79769e+308</upper>     <!--positive
+          infinity-->
+        </limit>
+      </axis>
+    </joint>
+
+    <frame name="caster_frame" attached_to='chassis'>
+      <pose>0.055808 0 0 0 0 0</pose>
+    </frame>
+
+    <link name='caster'>
+      <pose relative_to='caster_frame' />
+      <inertial>
+        <mass>10</mass>
+        <inertia>
+          <ixx>0.0007744</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0007744</iyy>
+          <iyz>0</iyz>
+          <izz>0.0007744</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual'>
+        <geometry>
+          <sphere>
+            <radius>0.044</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.0 1 0.0 1</ambient>
+          <diffuse>0.0 1 0.0 1</diffuse>
+          <specular>0.0 1 0.0 1</specular>
+        </material>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <sphere>
+            <radius>0.044</radius>
+          </sphere>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name='caster_wheel' type='ball'>
+      <parent>chassis</parent>
+      <child>caster</child>
+    </joint>
+
+    <link name="camera_link">
+      <pose relative_to="chassis">0.1 0 0.1 0 0 0</pose>
+      <inertial>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>0.000166667</ixx>
+          <iyy>0.000166667</iyy>
+          <izz>0.000166667</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.1 0.1 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <sensor name="camera" type="camera">
+        <camera>
+          <horizontal_fov>1.0855947947</horizontal_fov>
+          <image>
+            <width>1640</width>
+            <height>1242</height>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>100</far>
+          </clip>
+        </camera>
+        <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+          <always_on>1</always_on>
+          <update_rate>30</update_rate>
+          <cameraName>/Car/camera</cameraName>
+          <imageTopicName>image_raw</imageTopicName>
+          <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+          <frameName>camera</frameName>
+        </plugin>
+
+      </sensor>
+    </link>
+
+    <joint name='camera_joint' type='fixed'>
+      <pose relative_to='camera_link' />
+      <parent>chassis</parent>
+      <child>camera_link</child>
+    </joint>
+
+  </model>
+</sdf>
